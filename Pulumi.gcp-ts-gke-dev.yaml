@@ -1,0 +1,6 @@
+config:
+  gcp-ts-gke:nodeCount: "1"
+  gcp-ts-gke:password:
+    secure: AAABAMhU3adUaICBq1Z8l1pEDqotlk1RzpY1rcao4eQPgslqTjKKmbw=
+  gcp:project: micro-frontend-app
+  gcp:zone: us-central1-c
