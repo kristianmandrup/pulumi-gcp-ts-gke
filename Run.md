@@ -11,6 +11,22 @@ $ pulumi config set gcp:zone us-west1-a # any valid GCP zone here
 $ pulumi config set password --secret [your-cluster-password-here - minimum 16 chars]
 ```
 
+Example
+
+```sh
+$ pulumi config set gcp:project micro-frontend-app
+$ pulumi config set gcp:zone us-west1-a
+$ pulumi config set password --secret pulumi@1234@5678
+```
+
+Set node count to `1`
+
+```sh
+$ pulumi config set nodeCount 1
+```
+
+Then run `pulumi up` to create and deploy the cluster
+
 ```sh
 $ pulumi up
 Previewing update (gcp-ts-gke-dev):
